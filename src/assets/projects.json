@@ -1,0 +1,30 @@
+{
+  "list": [
+    {
+      "id": "1",
+      "title": "Cheese Please ",
+      "techStack": "Nuxt.js, Face-api.js, Bootstrap",
+      "date": "Spring 2020",
+      "link": "https://cocky-rosalind-1f3f29.netlify.app",
+      "githubRepo": "https://github.com/tomasregina/Cheese_Please",
+      "desription": "Small simple app to test face-api.js functionality. These library uses your webcam and computed models to estimate your face expression. In this app, there are some default jokes, changing in some intervals and your are not allow to laugh or show any face expresion. At the and of the game, you will see your score. Practical usage of this app? None :). I just wanted to play little bit with face-api library and gain some experience with Nuxt.js. PS: Add new quote functionality is not workgin on deployed version :/",
+      "imgsArr": [
+        { "id": "1", "src": "/img/projects_imgs/cheese_please_1.png" },
+        { "id": "2", "src": "/img/projects_imgs/cheease_please_2.png" }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Covid",
+      "techStack": "Vue etc",
+      "date": "Spring 2020",
+      "link": "https://www.regina.sk",
+      "desription": "Simple webapp showing covid data from public API",
+      "imgsArr": [
+        { "id": "1", "src": "/img/projects_imgs/logo.png" },
+        { "id": "2", "src": "/img/projects_imgs/logo.png" },
+        { "id": "3", "src": "/img/projects_imgs/logo.png" }
+      ]
+    }
+  ]
+}

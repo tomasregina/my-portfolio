@@ -1,12 +1,23 @@
 <template>
   <div id="app">
+    <TopBar />
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link  to="/">About Me</router-link> |
+      <router-link to="/projects">Projects</router-link> |
+      <router-link to="/participate">I participate</router-link> |
+      <router-link to="/contact">Contact Me</router-link>
     </div>
     <router-view/>
   </div>
 </template>
+<script>
+import TopBar from './components/TopBar.vue'
+export default {
+  components: {
+    TopBar
+  }
+}
+</script>
 
 <style>
 #app {
